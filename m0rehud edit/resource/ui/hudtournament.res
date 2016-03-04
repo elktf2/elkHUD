@@ -54,7 +54,7 @@
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"m0refont10"
+					"font"				"WeblySleek10"
 				}
 				if_competitive
 				{
@@ -62,7 +62,7 @@
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"m0refont10"
+					"font"				"WeblySleek10"
 				}
 				if_readymode
 				{
@@ -70,7 +70,7 @@
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"m0refont10"
+					"font"				"WeblySleek10"
 				}
 			}
 			
@@ -499,7 +499,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUELabel"
-		"font"			"m0refont14"
+		"font"			"WeblySleek24"
 		"xpos"			"29"
 		"ypos"			"-4"
 		"zpos"			"1"
@@ -530,7 +530,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"m0refont14"
+		"font"			"WeblySleek16"
 		"xpos"			"106"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -596,7 +596,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
-		"font"			"m0refont14"
+		"font"			"WeblySleek24"
 		"xpos"			"250"
 		"ypos"			"-4"
 		"zpos"			"1"
@@ -627,7 +627,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"m0refont14"
+		"font"			"WeblySleek16"
 		"xpos"			"180"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -658,7 +658,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"m0refont14"
+		"font"			"WeblySleek14"
 		"fgcolor"		"TanLight"
 		"xpos"			"50"
 		"ypos"			"9"
@@ -756,7 +756,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"m0refont12"
+		"font"			"WeblySleek12"
 		"xpos"			"50"
 		"ypos"			"35"
 		"wide"			"250"
@@ -772,7 +772,7 @@
 		
 		if_mvm
 		{
-			"font"			"m0refont12"
+			"font"			"WeblySleek12"
 			"xpos"			"155"
 			"ypos"			"105"
 			"wide"			"190"
@@ -781,7 +781,7 @@
 		}
 		if_competitive
 		{
-			"font"			"m0refont12"
+			"font"			"WeblySleek12"
 			"xpos"			"155"
 			"ypos"			"105"
 			"wide"			"190"
@@ -790,7 +790,7 @@
 		}
 		if_readymode
 		{
-			"font"			"m0refont12"
+			"font"			"WeblySleek12"
 			"xpos"			"195"
 			"ypos"			"40"
 			"wide"			"250"
@@ -855,7 +855,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"m0refont24"
+		"font"			"BigNoodleTitling32"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
@@ -875,7 +875,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"m0refont24"
+		"font"			"BigNoodleTitling32"
 		"xpos"			"231"
 		"ypos"			"r54"
 		"wide"			"40"
