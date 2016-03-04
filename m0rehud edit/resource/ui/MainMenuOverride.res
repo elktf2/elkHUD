@@ -252,7 +252,7 @@
 		"ypos"          "c-1"
 		"zpos"          "-1"
 		"wide"          "120"
-		"tall"          "164"
+		"tall"          "180"
 		"visible"       "1"            
 		"enabled"       "1"
 		"border"        "quikspec"
@@ -1545,6 +1545,41 @@
 			}
 		}
 	}
+	
+		"CompetitiveBetaImage"
+ 	{
+ 		"ControlName"	"CExLabel"
+ 		"fieldname"		"CompetitiveBetaImage"
+ 		"font"			"DefaultVerySmall"
+ 		"labelText"		"BETA"
+ 		"textAlignment"	"west"
+ 		"xpos"			"112"
+ 		"ypos"			"148"
+ 		"zpos"			"12"
+ 		"wide"			"55"
+ 		"tall"			"8"
+ 		"autoResize"	"0"
+ 		"pinCorner"		"0"
+ 		"visible"		"0"
+ 		"enabled"		"0"
+ 		"fgcolor_override" "255 255 0 255"
+ 		if_competitive
+ 		{
+ 				"visible"		"1"
+ 				"enabled"		"1"
+ 		}
+		
+		if_competitive_stress_event
+		{
+			// Move up/left 10px, bump up to 20x20
+			"ypos"	"165"
+			"xpos"	"c-285+205"
+			"wide"	"56"
+			"tall"	"56"
+			"image"	"beta_stress"
+		}
+		
+ 	}
 
 	"CallVoteButton"
 	{
@@ -1585,11 +1620,11 @@
 			"paintbackground"	"0"
 			
 				"defaultFgColor_override" "m0rewhite"
-				"armedFgColor_override" "34 164 135 255"
-				"depressedFgColor_override" "34 164 135 255"
+				"armedFgColor_override" "m0repink"
+				"depressedFgColor_override" "m0repink"
 				
 				"image_drawcolor"	"m0rewhite"
-				"image_armedcolor"	"34 164 135 255"
+				"image_armedcolor"	"m0repink"
 			
 			"SubImage"
 			{
@@ -1646,11 +1681,11 @@
 			"paintbackground"	"0"
 			
 				"defaultFgColor_override" "m0rewhite"
-				"armedFgColor_override" "34 164 135 255"
-				"depressedFgColor_override" "34 164 135 255"
+				"armedFgColor_override" "m0repink"
+				"depressedFgColor_override" "m0repink"
 				
 				"image_drawcolor"	"m0rewhite"
-				"image_armedcolor"	"34 164 135 255"
+				"image_armedcolor"	"m0repink"
 			
 			"SubImage"
 			{
@@ -1707,11 +1742,11 @@
 			"paintbackground"	"0"
 			
 				"defaultFgColor_override" "m0rewhite"
-				"armedFgColor_override" "34 164 135 255"
-				"depressedFgColor_override" "34 164 135 255"
+				"armedFgColor_override" "m0repink"
+				"depressedFgColor_override" "m0repink"
 				
 				"image_drawcolor"	"m0rewhite"
-				"image_armedcolor"	"34 164 135 255"
+				"image_armedcolor"	"m0repink"
 			
 			"SubImage"
 			{
@@ -1841,11 +1876,11 @@
 			"paintbackground"	"0"
 			
 				"defaultFgColor_override" "m0rewhite"
-				"armedFgColor_override" "34 164 135 255"
-				"depressedFgColor_override" "34 164 135 255"
+				"armedFgColor_override" "m0repink"
+				"depressedFgColor_override" "m0repink"
 				
 				"image_drawcolor"	"m0rewhite"
-				"image_armedcolor"	"34 164 135 255"
+				"image_armedcolor"	"m0repink"
 			
 			"SubImage"
 			{

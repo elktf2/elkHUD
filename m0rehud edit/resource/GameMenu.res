@@ -21,6 +21,13 @@
 		"command" "quickplay"
 		"subimage" ""
 	}
+		"CompetitiveButton"
+	{
+		"label" "Matchmaking" 
+		"command" "ladder_ui_show"
+		"subimage" ""
+		"OnlyAtMenu" "0"
+	}
 	"CharacterSetup"
 	{
 		"label" "Items"
