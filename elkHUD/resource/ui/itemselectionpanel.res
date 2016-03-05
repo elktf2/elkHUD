@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"m0reblack"
 		
 		"item_ypos"		"60"
 		"item_ydelta"	"80"
@@ -141,7 +141,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"m0rewhite"
 	}
 
 	"NameFilterTextEntry"
@@ -161,8 +161,8 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
+		"fgcolor_override"	"m0rewhite"
+		"bgcolor_override"	"m0reblack"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallest"
 	}
@@ -171,8 +171,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TopLine"
-		"xpos"			"c-305"
-		"ypos"			"40"
+		"xpos"			"99999999"
+		"ypos"			"909999999"
 		"zpos"			"2"
 		"wide"			"610"
 		"tall"			"10"
@@ -186,8 +186,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BottomLine"
-		"xpos"			"c-305"
-		"ypos"			"330"
+		"xpos"			"9999999"
+		"ypos"			"9999999"
 		"zpos"			"2"
 		"wide"			"610"
 		"tall"			"10"
@@ -342,7 +342,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"<"
+		"labelText"		"&D"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -385,7 +385,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		">"
+		"labelText"		"&A"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -430,7 +430,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"m0reblack"
 			"centerwrap"	"1"
 		}
 	}

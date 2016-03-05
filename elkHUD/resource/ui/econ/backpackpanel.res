@@ -47,8 +47,8 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
-			"paintborder"	"1"
+			"PaintBackgroundType"	"0"
+			"paintborder"	"0"
 
 			"Button"
 			{
@@ -59,8 +59,8 @@
 				"visible"		"1"
 				"bgcolor_override"		"0 0 0 0"
 				"noitem_textcolor"		"117 107 94 255"
-				"PaintBackgroundType"	"2"
-				"paintborder"	"1"
+				"PaintBackgroundType"	"0"
+				"paintborder"	"0"
 				"textAlignment"	"center"
 				"labelText"		"%page%"
 				"font"				"HudFontSmallestBold"
@@ -173,7 +173,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "m0repink"
 	}
 	"ClassLabel"
 	{
@@ -233,13 +233,13 @@
 		"default"			"0"
 		"border"			"m0repink"
 		
-		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
-		"disabledBgColor_override" "0 0 0 0"
-		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
-		"defaultSelectionBG2Color_override" "0 0 0 0"
+		"fgcolor_override"	"m0rewhite"
+		"bgcolor_override"	"m0reblack"
+		"disabledFgColor_override" "m0rewhite"
+		"disabledBgColor_override" "m0reblack"
+		"selectionColor_override" "m0reblack"
+		"selectionTextColor_override" "m0rewhite"
+		"defaultSelectionBG2Color_override" "m0reblack"
 	}	
 	
 	"ShowBaseItemsCheckbox"
@@ -278,7 +278,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"m0rewhite"
 	}
 
 	"NameFilterTextEntry"
@@ -297,8 +297,8 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
+		"fgcolor_override"	"m0reblack"
+		"bgcolor_override"	"m0rewhite"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallest"
 	}
@@ -324,13 +324,13 @@
 		"unicode"			"0"
 		"default"			"0"
 		
-		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "235 226 202 255"
-		"disabledBgColor_override" "0 0 0 0"
-		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
-		"defaultSelectionBG2Color_override" "0 0 0 0"
+		"fgcolor_override"	"m0rewhite"
+		"bgcolor_override"	"m0reblack"
+		"disabledFgColor_override" "m0rewhite"
+		"disabledBgColor_override" "m0reblack"
+		"selectionColor_override" "m0reblack"
+		"selectionTextColor_override" "m0rewhite"
+		"defaultSelectionBG2Color_override" "m0reblack"
 	}	
 
 	
@@ -345,8 +345,10 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
+		"noitem_textcolor"		"m0reblack"
+		"PaintBackgroundType"	"0"
+		"border"				"m0reborder"
+		"border_override"		"m0reborder"
 		"paintborder"	"1"
 		
 		"text_center"		"1"
@@ -368,8 +370,25 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"m0rewhite"
 			"centerwrap"	"1"
+		}
+		"PackBackground"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"PackBackground"
+			"xpos"		"0"
+			"ypos"		"0"
+			"zpos"		"-1"
+			"wide"		"400"
+			"tall"		"400"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"		"0"
+			"bgcolor_override"	"m0reblack"
+			"proportionalToParent"	"1"
 		}
 	}
 	
@@ -427,10 +446,9 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"defaultBgColor_override"   "10 10 10 255"
-		"armedBgColor_override"     "25 25 25 255"
+		"armedBgColor_override"     "10 10 10 255"
 		"depressedBgColor_override" "10 10 10 255"
 		
-		"defaultFgColor_override"   "m0rewhite"
 		"armedFgColor_override0"	"m0rewhite"
 		"defaultFgColor_override"	"m0repink"
 		
@@ -455,7 +473,7 @@
 	    "pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "m0repink"
+		"fgcolor_override" "m0rewhite"
 	}
 	
 	"NextPageButton"
@@ -482,10 +500,9 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"defaultBgColor_override"   "10 10 10 255"
-		"armedBgColor_override"     "25 25 25 255"
+		"armedBgColor_override"     "10 10 10 255"
 		"depressedBgColor_override" "10 10 10 255"
 		
-		"defaultFgColor_override"   "m0rewhite"
 		"armedFgColor_override0"	"m0rewhite"
 		"defaultFgColor_override"	"m0repink"
 		

@@ -271,8 +271,8 @@
 		"wide"			"250"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"m0reblack"
+		"noitem_textcolor"		"m0rewhite"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
